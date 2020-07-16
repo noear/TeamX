@@ -24,6 +24,7 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 #
 # 管理员账号：admin 密码：1234
 # 其它账号，可自行注册或在后台添加
+# 或者jdk 12,13,14,15 也行，没试过
 #
 ```
 
@@ -42,7 +43,7 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 #### 三、其它
 
 1. 源码在哪里？
-   * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布
+   * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布(代码是用js和ftl写的)
    * TeamX 的源码，发布在 SolonJT 的中央仓库里
 
 2. 演示地址

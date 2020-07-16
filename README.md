@@ -7,12 +7,12 @@
 
 
 引擎包及大小说明：
-* bin/jt.jar （5m，服务版，需要MySQL配合）
+* bin/jt.jar （5m，服务器版，需要MySQL配合）
 * bin/jtl.jar （6.3m，个人版）
 
 
 
-#### 服务器版（要求 Oracle JDK 9,10,11 和 Mysql 5.6+）
+#### 一、服务器版安装和使用（要求 Oracle JDK 9,10,11 和 Mysql 5.6+）
 
 ```
 java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
@@ -26,7 +26,7 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 #
 ```
 
-#### 个人版（要求 Oracle JDK 9,10）
+#### 二、个人版（要求 Oracle JDK 9,10）
 
 ```
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
@@ -38,13 +38,13 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 #
 ```
 
-#### 源码在哪里？
+#### 三、其它
 
-* SolonJT 是个另类的FaaS系统， 集成了包的管理和发布
-* TeamX 的源码，发布在 SolonJT 的中央仓库里
+* 源码在哪里？
+	* SolonJT 是个另类的FaaS系统， 集成了包的管理和发布
+	* TeamX 的源码，发布在 SolonJT 的中央仓库里
 
 
-#### 演示地址
-
-* http://teamx.noear.org/
+* 演示地址
+	* http://teamx.noear.org/
 

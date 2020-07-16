@@ -22,6 +22,7 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 # 2.按提示配置数据库（提前准备个空的库；账号要有建表权限）
 #
 # 管理员账号：admin 密码：1234
+# 其它账号，可自行注册或在后台添加
 #
 ```
 

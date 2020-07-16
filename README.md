@@ -48,4 +48,5 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 
 2. 演示地址
    * http://teamx.noear.org/
+   * 测试账号：test  密码：1234 （也可以自己注册个）
 

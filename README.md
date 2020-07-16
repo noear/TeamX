@@ -24,7 +24,7 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 #
 # 管理员账号：admin 密码：1234
 # 其它账号，可自行注册或在后台添加
-# 或者jdk 12,13,14,15 也行，没试过
+# 可能 jdk 12,13,14,15 也行？没试过
 #
 ```
 

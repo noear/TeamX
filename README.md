@@ -13,7 +13,7 @@
 ???
 * 不用疑问，就是只用5m驱动一切了...不用tomcat，不用几十m，不用...
 
-#### 一、服务器版安装和使用（要求 Oracle JDK 9,10,11 和 Mysql 5.6+）
+### 一、服务器版安装和使用（要求 Oracle JDK 9,10,11 和 Mysql 5.6+）
 
 ```
 java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
@@ -28,7 +28,7 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 #
 ```
 
-#### 二、个人版（要求 Oracle JDK 9,10）
+### 二、个人版（要求 Oracle JDK 9,10）
 
 ```
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
@@ -40,7 +40,7 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 #
 ```
 
-#### 三、其它
+### 三、其它
 
 1. 源码在哪里？
    * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布(代码存数据库里的)

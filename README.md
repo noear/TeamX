@@ -43,7 +43,7 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 #### 三、其它
 
 1. 源码在哪里？
-   * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布(代码是用js和ftl写的)
+   * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布(代码存数据库里的)
    * TeamX 的源码，发布在 SolonJT 的中央仓库里
 
 2. 演示地址

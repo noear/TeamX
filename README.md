@@ -7,8 +7,8 @@
 
 
 引擎包及大小说明：
-* bin/jt.jar 5m
-* bin/jtl.jar 6.3m
+* bin/jt.jar （5m，服务版，需要MySQL配合）
+* bin/jtl.jar （6.3m，个人版）
 
 
 

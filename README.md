@@ -4,7 +4,7 @@ TeamX
 ### 服务器版
 
 ```
-java -jar jt.jar -server.port=8080 -add=teamx.noear -root=/user/login -init=/teamx/__init
+java -jar jt.jar -add=teamx.noear -home=/user/login -init=/teamx/__init
 ```
 
 ### 单机版

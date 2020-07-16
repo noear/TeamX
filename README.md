@@ -18,7 +18,7 @@
 java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 
 #
-# 1.在浏览器里打开：http://x.x.x.x:8080
+# 1.然后在浏览器里打开：http://x.x.x.x:8080
 # 2.按提示配置数据库（提前准备个空的库；账号要有建表权限）
 #
 # 管理员账号：admin 密码：1234
@@ -31,7 +31,7 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 
 #
-# 自动会打开首页；不需要账号，直接进入。
+# 启动后会自动打开首页；不需要账号，直接进入。
 #
 # 可以写成脚本文件启动
 #

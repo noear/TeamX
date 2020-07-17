@@ -33,7 +33,7 @@ TeamX 是基于 SolonJT 平台构建的团队管理小工具，主要功能有�
 java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 ```
 
-* 或，使用单机版的服务器模式启用（这个简单...）
+* 或，使用单机版的服务器模式启用（这个简单......!!!）
 
 ```
 java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server.port=8080

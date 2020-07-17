@@ -31,7 +31,13 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 ### 二、个人版（要求 Oracle JDK 9,10）
 
 ```
+#基于JavaFx运行，效果像本地应用（支持 Oracle JDK 9,10）
+#
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
+
+#基于浏览器运行（支持 Oracle JDK 9,10,11）
+#
+java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -server=1
 
 #
 # 启动后会自动打开首页；不需要账号，直接进入。

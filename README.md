@@ -1,52 +1,70 @@
 # TeamX
-基于 SolonJT 平台构建的团队小工具，主要功能有：
 
-* Wiki（企业词条）
-* Planned（项目计划和个人日志）
+### 介绍
+
+TeamX 是基于 SolonJT 平台构建的团队管理小工具，主要功能有：
+
+* Wiki（团队词条，用于写MD格式接口文档也行...）
+* Planned（项目计划 和 个人日志）
 * Issues（问题管理，如缺陷、需求...）
+
+
 
 
 引擎包及大小说明：
 * bin/jt.jar （5m，服务器版，需要MySQL配合）
-* bin/jtl.jar （6.3m，个人版）
+* bin/jtl.jar （6.3m，单机版）
 
-???
-* 不用疑问，就是只用5m驱动一切了...不用tomcat，不用几十m，不用...
 
-### 一、服务器版安装和使用（要求 Oracle JDK 9,10,11 和 Mysql 5.6+）
+
+### 使用
+
+#### 一、服务器模式安装和使用（即多人使用）
+
+* 使用服务器版启用（支持 Oracle JDK 9,10,11；需要Mysql 5.6+ 配合）
 
 ```
 java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
-
-#
-# 1.然后在浏览器里打开：http://x.x.x.x:8080
-# 2.按提示配置数据库（提前准备个空的库；账号要有建表权限）
-#
-# 管理员账号：admin 密码：1234
-# 其它账号，可自行注册或在后台添加
-# 可能 jdk 12,13,14,15 也行？没试过
-#
 ```
 
-### 二、个人版（要求 Oracle JDK 9,10）
+* 使用单机版的服务器模式启用（支持 Oracle JDK 9,10,11）
 
 ```
-#基于JavaFx运行，效果像本地应用（支持 Oracle JDK 9,10）
+java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server.port=8080
+```
+
+* 然后
+
+1. 在浏览器里打开：http://x.x.x.x:8080
+2. 按界面提示配置数据库（提前准备个空的库；账号要有建表权限）*** [单机版跳过]
+3. 管理员账号：admin  密码：1234
+4. 其它账号，可自行注册或在后台添加
+
+
+
+#### 二、个人模式（即单人使用）
+
+* 使用单机版的桌面模式启动（支持 Oracle JDK 9,10）
+
+```
+#基于JavaFx运行，效果像本地应用
 #
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
-
-#基于浏览器运行（支持 Oracle JDK 9,10,11）
-#
-java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -server=1
-
-#
-# 启动后会自动打开首页；不需要账号，直接进入。
-#
-# 可以写成脚本文件启动
-#
 ```
 
-### 三、其它
+* 使用单机版的浏览器模式启动（支持 Oracle JDK 9,10,11）
+
+```
+java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1
+```
+
+* 然后
+
+> 个人模式启动后会自动打开首页；不需要账号，直接进入。
+
+
+
+#### 三、其它
 
 1. 源码在哪里？
    * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布(代码存数据库里的)

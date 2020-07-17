@@ -21,13 +21,13 @@ TeamX 是基于 SolonJT 平台构建的团队管理小工具，主要功能有�
 
 #### 一、服务器模式安装和使用（即多人使用）
 
-* 使用服务器版启用（支持 Oracle JDK 9,10,11；需要Mysql 5.6+ 配合）
+* 使用服务器版启用（支持 JDK 9,10,11,12,13,14；需要Mysql 5.6+ 配合）
 
 ```
 java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 ```
 
-* 使用单机版的服务器模式启用（支持 Oracle JDK 9,10,11）
+* 使用单机版的服务器模式启用（支持 JDK 9,10,11,12,13,14）
 
 ```
 java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server.port=8080
@@ -44,7 +44,7 @@ java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server
 
 #### 二、个人模式（即单人使用）
 
-* 使用单机版的桌面模式启动（支持 Oracle JDK 9,10）
+* 使用单机版的桌面模式启动（支持 JDK 9,10；因为需要JavaFx）
 
 ```
 #基于JavaFx运行，效果像本地应用
@@ -52,7 +52,7 @@ java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX
 ```
 
-* 使用单机版的浏览器模式启动（支持 Oracle JDK 9,10,11）
+* 使用单机版的浏览器模式启动（支持 JDK 9,10,11,12,13,14）
 
 ```
 java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1

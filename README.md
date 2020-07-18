@@ -94,5 +94,8 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1
    * -home= 启动后或安装后打开的地址
    * -title= 设定系统标题
    * -model= 运行模式：0,1,2（单机版专属）
+     * 0 个人桌面模式，默认
+     * 1 个人浏览器模式
+     * 2 多人模式
    * -rem= 启动后移除插件（单机版专属，服务器版可进入扩展中心手动管理）
    * -udp= 启动后更新插件（单机版专属）

@@ -33,7 +33,16 @@ TeamX，功能不强但绝对小巧；基于 SolonJT 平台构建。主要功能
 
 
 
-### 二、安装
+
+### 二、入门教程视频
+
+* [https://www.ixigua.com/6851060650723656200/](https://www.ixigua.com/6851060650723656200/)
+
+
+
+
+
+### 三、安装说明
 
 #### （一）服务器模式安装和使用（即多人使用）
 
@@ -82,13 +91,6 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1
 
 
 
-### 三、使用与教程视频
-
-* [https://www.ixigua.com/6851060650723656200/](https://www.ixigua.com/6851060650723656200/)
-
-
-
-
 
 ### 四、其它
 
@@ -107,3 +109,4 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1
      * 2 多人模式
    * -rem= 启动后移除插件（单机版专属，服务器版可进入扩展中心手动管理）
    * -udp= 启动后更新插件（单机版专属）
+

@@ -88,6 +88,8 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1
 * 2.Wiki的使用：[https://www.bilibili.com/video/BV1vk4y1B7qr/](https://www.bilibili.com/video/BV1vk4y1B7qr/)
 * 3.Planned的使用：[https://www.bilibili.com/video/BV1si4y137QP/](https://www.bilibili.com/video/BV1si4y137QP/)
 * 4.Issues的使用：[https://www.bilibili.com/video/BV1k54y1S7wZ/](https://www.bilibili.com/video/BV1k54y1S7wZ/)
+* 5.管理后台的使用：[https://www.bilibili.com/video/BV1XA411e7xV/](https://www.bilibili.com/video/BV1XA411e7xV/)
+* 6.皮肤开发入门：[https://www.bilibili.com/video/BV1QZ4y1u7LE/](https://www.bilibili.com/video/BV1QZ4y1u7LE/)
 
 
 

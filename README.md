@@ -22,7 +22,7 @@ TeamX，功能不强但绝对小巧；基于 SolonJT 平台构建。主要功能
 
 支持环境：
 
-* jdk9, jdk10, jdk11, jdk12, jdk13, jdk14（优先用 Oracle JDK）
+* jdk9, jdk10, jdk11, jdk12, jdk13, jdk14
 
 
 

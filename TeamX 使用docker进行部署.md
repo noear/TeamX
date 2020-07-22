@@ -1,4 +1,4 @@
-### （一）创建持久化目录，并放置文件
+#### 一、创建持久化目录，并放置文件
 
 ```shell
 $ mkdir -p /data/sss/teamx
@@ -8,13 +8,13 @@ $ # 然后把 jtl.jar 或 jt.jar 放到 /data/sss/teamx/ 下面
 
 
 
-### （二）拉取 docker openjdk11 镜像
+#### 二、拉取 docker openjdk11 镜像
 
 ```shell
 $ docker pull adoptopenjdk/openjdk11
 ```
 
-### （三）运用 docker run
+#### 三、运用 docker run
 
 ```shell
 $ docker run -d \                  # 将 -d  换成 -it --rm 可用于测试

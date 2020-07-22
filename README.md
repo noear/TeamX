@@ -60,7 +60,7 @@ java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server
 
 * 或，使用Docker进行部署
 
-参考：[《使用Docker部署.md》](使用Docker部署.md)
+  参考：[《使用Docker部署.md》](使用Docker部署.md)
 
 * 然后
 

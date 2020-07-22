@@ -58,6 +58,10 @@ java -jar jt.jar -add=teamx.noear -home=/ -init=/teamx/__init
 java -jar jtl.jar -add=teamx.noear -home=/ -init=/teamx/__init  -model=2 -server.port=8080
 ```
 
+* 或，使用Docker进行部署
+
+参考：[《使用Docker部署.md》](使用Docker部署.md)
+
 * 然后
 
 1. 在浏览器里打开：http://x.x.x.x:8080

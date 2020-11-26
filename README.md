@@ -2,7 +2,7 @@
 
 ### 一、介绍
 
-TeamX，功能不强但绝对小巧；基于 SolonJT 平台构建。主要功能有：
+TeamX，功能不强但绝对小巧；基于 Luffy faas 平台构建。主要功能有：
 
 * Wiki（团队词条，用于写接口文档也行...）
 * Planned（项目计划 和 个人日志）
@@ -99,8 +99,8 @@ java -jar jtl.jar -add=teamx.noear -home=/teamx/ -title=TeamX -model=1
 ### 五、其它
 
 1. 源码在哪里？
-   * SolonJT 是个另类的FaaS系统， 集成了包的管理和发布（代码存数据库里的）
-   * TeamX 的源码，发布在 SolonJT 的中央仓库里（安装即是拉取）
+   * Luffy 是个另类的FaaS系统， 集成了包的管理和发布（代码存数据库里的）
+   * TeamX 的源码，发布在 Luffy 的中央仓库里（安装即是拉取）
 
 2. 启动参数都是什么意思？
    * -add= 启动后加载的插件（第一次，会从中央仓库获取）

@@ -11,9 +11,8 @@ services:
     environment:
       - luffy.add=teamx.noear     #添加luffy插件，多个以,隔开
       - luffy.init=/teamx/__init  #启动后的初始化脚本
-      - luffy.model=2             #运行模式（2:多人模式）
     ports:
-      - "8080:8080"
+      - "18080:8080"
     volumes:
       - "./luffy_ext:/luffy_ext"
 

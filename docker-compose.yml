@@ -6,7 +6,7 @@ version: '3'
 
 services:
   teamx:
-    image: noearorg/luffy-jtc:1.5.0
+    image: noearorg/luffy-jtc:1.6.1
     container_name: teamx
     environment:
       - luffy.add=teamx.noear     #添加luffy插件，多个以,隔开
